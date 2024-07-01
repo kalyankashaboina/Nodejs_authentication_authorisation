@@ -10,6 +10,7 @@ const posts = [
   { name: "arun", age: 162 },
   { name: "hari", age: 544 },
 ];
+
 const users = [];
 
 app.get("/post", (req, res) => {
