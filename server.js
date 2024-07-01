@@ -2,6 +2,7 @@ const express=require("express")
 const mongoose=require("mongoose")
 const cors=require("cors")
 const app=express()
+const {authUser}=require("./Authorization/basicAuth")
 
 
 app.use(express.json())
@@ -78,6 +79,32 @@ const{username,password}=req.body
         res.status(500).json({message:"not able to find"})
     }
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
